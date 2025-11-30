@@ -1,0 +1,10 @@
+D:\hoctap\C#\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+D:\hoctap\C#\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+D:\hoctap\C#\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.AssemblyReference.cache
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormMDI.resources
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+D:\hoctap\C#\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
