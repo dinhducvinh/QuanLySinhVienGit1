@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLySinhVien
 {
-    public partial class FormMDI : Form
+    public partial class FormNghe : Form
     {
-        public FormMDI()
+        public FormNghe()
         {
             InitializeComponent();
         }
-
-      
     }
 }

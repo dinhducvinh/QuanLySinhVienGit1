@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\hoctap\\C#\\QuanLySinhVien\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhvien\\formmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:formmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|D:\\hoctap\\C#\\QuanLySinhVien\\SinhVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:SinhVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|D:\\hoctap\\C#\\QuanLySinhVien\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|D:\\hoctap\\C#\\QuanLySinhVien\\formdangnhap .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:formdangnhap .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,52 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SinhVien.cs [Design]",
-              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVien\\SinhVien.cs",
-              "RelativeDocumentMoniker": "SinhVien.cs",
-              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\SinhVien.cs [Design]",
-              "RelativeToolTip": "..\\QuanLySinhVienGit\\QuanLySinhVien\\SinhVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:27:47.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormMDI.cs [Design]",
-              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVien\\FormMDI.cs",
-              "RelativeDocumentMoniker": "FormMDI.cs",
-              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVien\\FormMDI.cs [Design]",
-              "RelativeToolTip": "FormMDI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:15:02.653Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVien\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVien\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:14:45.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormDangNhap .cs [Design]",
-              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVien\\FormDangNhap .cs",
-              "RelativeDocumentMoniker": "FormDangNhap .cs",
-              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\FormDangNhap .cs [Design]",
-              "RelativeToolTip": "..\\QuanLySinhVienGit\\QuanLySinhVien\\FormDangNhap .cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:14:06.449Z"
             }
           ]
         }
