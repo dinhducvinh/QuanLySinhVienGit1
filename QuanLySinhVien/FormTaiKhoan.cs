@@ -16,5 +16,10 @@ namespace QuanLySinhVien
         {
             InitializeComponent();
         }
+
+        private void buttonThem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
