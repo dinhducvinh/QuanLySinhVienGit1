@@ -114,7 +114,7 @@ namespace QuanLySinhVien
             this.labelDiem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelDiem.Location = new System.Drawing.Point(18, 290);
             this.labelDiem.Name = "labelDiem";
-            this.labelDiem.Size = new System.Drawing.Size(59, 23);
+            this.labelDiem.Size = new System.Drawing.Size(58, 23);
             this.labelDiem.TabIndex = 18;
             this.labelDiem.Text = "Điểm:";
             // 
@@ -133,7 +133,7 @@ namespace QuanLySinhVien
             this.labelNgayThi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelNgayThi.Location = new System.Drawing.Point(18, 210);
             this.labelNgayThi.Name = "labelNgayThi";
-            this.labelNgayThi.Size = new System.Drawing.Size(83, 23);
+            this.labelNgayThi.Size = new System.Drawing.Size(84, 23);
             this.labelNgayThi.TabIndex = 16;
             this.labelNgayThi.Text = "Ngày thi:";
             // 
@@ -166,7 +166,7 @@ namespace QuanLySinhVien
             this.labelLanThi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelLanThi.Location = new System.Drawing.Point(18, 130);
             this.labelLanThi.Name = "labelLanThi";
-            this.labelLanThi.Size = new System.Drawing.Size(71, 23);
+            this.labelLanThi.Size = new System.Drawing.Size(70, 23);
             this.labelLanThi.TabIndex = 14;
             this.labelLanThi.Text = "Lần thi:";
             // 
@@ -206,7 +206,7 @@ namespace QuanLySinhVien
             this.labelSinhVien.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelSinhVien.Location = new System.Drawing.Point(18, 50);
             this.labelSinhVien.Name = "labelSinhVien";
-            this.labelSinhVien.Size = new System.Drawing.Size(90, 23);
+            this.labelSinhVien.Size = new System.Drawing.Size(88, 23);
             this.labelSinhVien.TabIndex = 10;
             this.labelSinhVien.Text = "Sinh viên:";
             // 
@@ -235,6 +235,7 @@ namespace QuanLySinhVien
             this.buttonLamMoi.TabIndex = 3;
             this.buttonLamMoi.Text = "Làm mới";
             this.buttonLamMoi.UseVisualStyleBackColor = false;
+            this.buttonLamMoi.Click += new System.EventHandler(this.buttonLamMoi_Click);
             // 
             // buttonXoa
             // 
@@ -248,6 +249,7 @@ namespace QuanLySinhVien
             this.buttonXoa.TabIndex = 2;
             this.buttonXoa.Text = "Xóa";
             this.buttonXoa.UseVisualStyleBackColor = false;
+            this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
             // 
             // buttonSua
             // 
@@ -261,6 +263,7 @@ namespace QuanLySinhVien
             this.buttonSua.TabIndex = 1;
             this.buttonSua.Text = "Sửa";
             this.buttonSua.UseVisualStyleBackColor = false;
+            this.buttonSua.Click += new System.EventHandler(this.buttonSua_Click);
             // 
             // buttonThem
             // 
@@ -274,6 +277,7 @@ namespace QuanLySinhVien
             this.buttonThem.TabIndex = 0;
             this.buttonThem.Text = "Thêm";
             this.buttonThem.UseVisualStyleBackColor = false;
+            this.buttonThem.Click += new System.EventHandler(this.buttonThem_Click);
             // 
             // panelHeader
             // 
@@ -292,7 +296,7 @@ namespace QuanLySinhVien
             this.labelTitle.ForeColor = System.Drawing.Color.White;
             this.labelTitle.Location = new System.Drawing.Point(12, 12);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(390, 41);
+            this.labelTitle.Size = new System.Drawing.Size(393, 41);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "QUẢN LÝ ĐIỂM SINH VIÊN";
             // 
@@ -348,6 +352,7 @@ namespace QuanLySinhVien
             this.dataGridViewDiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewDiem.Size = new System.Drawing.Size(720, 560);
             this.dataGridViewDiem.TabIndex = 1;
+            this.dataGridViewDiem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDiem_CellClick);
             // 
             // panelSearch
             // 
@@ -375,6 +380,7 @@ namespace QuanLySinhVien
             this.buttonTimKiem.TabIndex = 2;
             this.buttonTimKiem.Text = "Tìm kiếm";
             this.buttonTimKiem.UseVisualStyleBackColor = false;
+            this.buttonTimKiem.Click += new System.EventHandler(this.buttonTimKiem_Click);
             // 
             // textBoxTimKiem
             // 
@@ -391,7 +397,7 @@ namespace QuanLySinhVien
             this.labelSearch.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
             this.labelSearch.Location = new System.Drawing.Point(10, 13);
             this.labelSearch.Name = "labelSearch";
-            this.labelSearch.Size = new System.Drawing.Size(268, 25);
+            this.labelSearch.Size = new System.Drawing.Size(306, 25);
             this.labelSearch.TabIndex = 0;
             this.labelSearch.Text = "📊 DANH SÁCH ĐIỂM SINH VIÊN";
             // 
@@ -417,6 +423,7 @@ namespace QuanLySinhVien
             this.panelSearch.ResumeLayout(false);
             this.panelSearch.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion

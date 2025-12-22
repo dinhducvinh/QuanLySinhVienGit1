@@ -17,10 +17,9 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
             this.panelSearch = new System.Windows.Forms.Panel();
@@ -46,7 +45,6 @@
             this.buttonThem = new System.Windows.Forms.Button();
             this.panelRight = new System.Windows.Forms.Panel();
             this.dataGridViewSinhVien = new System.Windows.Forms.DataGridView();
-
             this.panelHeader.SuspendLayout();
             this.panelSearch.SuspendLayout();
             this.panelLeft.SuspendLayout();
@@ -55,7 +53,6 @@
             this.panelRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSinhVien)).BeginInit();
             this.SuspendLayout();
-
             // 
             // panelHeader
             // 
@@ -66,7 +63,6 @@
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1200, 60);
             this.panelHeader.TabIndex = 0;
-
             // 
             // labelTitle
             // 
@@ -75,10 +71,9 @@
             this.labelTitle.ForeColor = System.Drawing.Color.White;
             this.labelTitle.Location = new System.Drawing.Point(12, 12);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(312, 41);
+            this.labelTitle.Size = new System.Drawing.Size(308, 41);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "QUẢN LÝ SINH VIÊN";
-
             // 
             // panelSearch
             // 
@@ -92,7 +87,6 @@
             this.panelSearch.Padding = new System.Windows.Forms.Padding(15, 10, 15, 10);
             this.panelSearch.Size = new System.Drawing.Size(1200, 60);
             this.panelSearch.TabIndex = 1;
-
             // 
             // buttonTimKiem
             // 
@@ -107,7 +101,7 @@
             this.buttonTimKiem.TabIndex = 2;
             this.buttonTimKiem.Text = "Tìm kiếm";
             this.buttonTimKiem.UseVisualStyleBackColor = false;
-
+            this.buttonTimKiem.Click += new System.EventHandler(this.buttonTimKiem_Click);
             // 
             // textBoxTimKiem
             // 
@@ -117,19 +111,17 @@
             this.textBoxTimKiem.Name = "textBoxTimKiem";
             this.textBoxTimKiem.Size = new System.Drawing.Size(245, 32);
             this.textBoxTimKiem.TabIndex = 1;
-
             // 
             // labelSearch
             // 
             this.labelSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelSearch.AutoSize = true;
             this.labelSearch.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.labelSearch.Location = new System.Drawing.Point(730, 18);
+            this.labelSearch.Location = new System.Drawing.Point(705, 18);
             this.labelSearch.Name = "labelSearch";
-            this.labelSearch.Size = new System.Drawing.Size(84, 23);
+            this.labelSearch.Size = new System.Drawing.Size(101, 23);
             this.labelSearch.TabIndex = 0;
             this.labelSearch.Text = "Mã/Tên SV:";
-
             // 
             // panelLeft
             // 
@@ -142,7 +134,6 @@
             this.panelLeft.Padding = new System.Windows.Forms.Padding(15);
             this.panelLeft.Size = new System.Drawing.Size(420, 580);
             this.panelLeft.TabIndex = 2;
-
             // 
             // groupBoxThongTin
             // 
@@ -166,7 +157,6 @@
             this.groupBoxThongTin.TabIndex = 0;
             this.groupBoxThongTin.TabStop = false;
             this.groupBoxThongTin.Text = "Thông tin sinh viên";
-
             // 
             // comboBoxLop
             // 
@@ -177,7 +167,6 @@
             this.comboBoxLop.Name = "comboBoxLop";
             this.comboBoxLop.Size = new System.Drawing.Size(350, 31);
             this.comboBoxLop.TabIndex = 9;
-
             // 
             // labelLop
             // 
@@ -185,10 +174,9 @@
             this.labelLop.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelLop.Location = new System.Drawing.Point(18, 230);
             this.labelLop.Name = "labelLop";
-            this.labelLop.Size = new System.Drawing.Size(47, 23);
+            this.labelLop.Size = new System.Drawing.Size(46, 23);
             this.labelLop.TabIndex = 8;
             this.labelLop.Text = "Lớp:";
-
             // 
             // dateTimePickerNgaySinh
             // 
@@ -198,7 +186,6 @@
             this.dateTimePickerNgaySinh.Name = "dateTimePickerNgaySinh";
             this.dateTimePickerNgaySinh.Size = new System.Drawing.Size(350, 30);
             this.dateTimePickerNgaySinh.TabIndex = 7;
-
             // 
             // labelNgaySinh
             // 
@@ -206,10 +193,9 @@
             this.labelNgaySinh.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelNgaySinh.Location = new System.Drawing.Point(18, 160);
             this.labelNgaySinh.Name = "labelNgaySinh";
-            this.labelNgaySinh.Size = new System.Drawing.Size(97, 23);
+            this.labelNgaySinh.Size = new System.Drawing.Size(94, 23);
             this.labelNgaySinh.TabIndex = 6;
             this.labelNgaySinh.Text = "Ngày sinh:";
-
             // 
             // textBoxTenSinhVien
             // 
@@ -218,7 +204,6 @@
             this.textBoxTenSinhVien.Name = "textBoxTenSinhVien";
             this.textBoxTenSinhVien.Size = new System.Drawing.Size(350, 30);
             this.textBoxTenSinhVien.TabIndex = 5;
-
             // 
             // labelTenSinhVien
             // 
@@ -226,10 +211,9 @@
             this.labelTenSinhVien.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelTenSinhVien.Location = new System.Drawing.Point(18, 90);
             this.labelTenSinhVien.Name = "labelTenSinhVien";
-            this.labelTenSinhVien.Size = new System.Drawing.Size(107, 23);
+            this.labelTenSinhVien.Size = new System.Drawing.Size(117, 23);
             this.labelTenSinhVien.TabIndex = 4;
             this.labelTenSinhVien.Text = "Tên sinh viên:";
-
             // 
             // textBoxMaSinhVien
             // 
@@ -238,7 +222,6 @@
             this.textBoxMaSinhVien.Name = "textBoxMaSinhVien";
             this.textBoxMaSinhVien.Size = new System.Drawing.Size(200, 30);
             this.textBoxMaSinhVien.TabIndex = 3;
-
             // 
             // labelMaSinhVien
             // 
@@ -246,10 +229,9 @@
             this.labelMaSinhVien.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelMaSinhVien.Location = new System.Drawing.Point(18, 20);
             this.labelMaSinhVien.Name = "labelMaSinhVien";
-            this.labelMaSinhVien.Size = new System.Drawing.Size(107, 23);
+            this.labelMaSinhVien.Size = new System.Drawing.Size(115, 23);
             this.labelMaSinhVien.TabIndex = 2;
             this.labelMaSinhVien.Text = "Mã sinh viên:";
-
             // 
             // textBoxID
             // 
@@ -260,7 +242,6 @@
             this.textBoxID.ReadOnly = true;
             this.textBoxID.Size = new System.Drawing.Size(100, 30);
             this.textBoxID.TabIndex = 1;
-
             // 
             // labelID
             // 
@@ -268,10 +249,9 @@
             this.labelID.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.labelID.Location = new System.Drawing.Point(268, 20);
             this.labelID.Name = "labelID";
-            this.labelID.Size = new System.Drawing.Size(32, 23);
+            this.labelID.Size = new System.Drawing.Size(33, 23);
             this.labelID.TabIndex = 0;
             this.labelID.Text = "ID:";
-
             // 
             // panelButtons
             // 
@@ -285,7 +265,6 @@
             this.panelButtons.Padding = new System.Windows.Forms.Padding(0, 15, 0, 0);
             this.panelButtons.Size = new System.Drawing.Size(390, 100);
             this.panelButtons.TabIndex = 1;
-
             // 
             // buttonLamMoi
             // 
@@ -299,7 +278,7 @@
             this.buttonLamMoi.TabIndex = 3;
             this.buttonLamMoi.Text = "Làm mới";
             this.buttonLamMoi.UseVisualStyleBackColor = false;
-
+            this.buttonLamMoi.Click += new System.EventHandler(this.buttonLamMoi_Click);
             // 
             // buttonXoa
             // 
@@ -313,7 +292,7 @@
             this.buttonXoa.TabIndex = 2;
             this.buttonXoa.Text = "Xóa";
             this.buttonXoa.UseVisualStyleBackColor = false;
-
+            this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
             // 
             // buttonSua
             // 
@@ -327,7 +306,7 @@
             this.buttonSua.TabIndex = 1;
             this.buttonSua.Text = "Sửa";
             this.buttonSua.UseVisualStyleBackColor = false;
-
+            this.buttonSua.Click += new System.EventHandler(this.buttonSua_Click);
             // 
             // buttonThem
             // 
@@ -341,7 +320,7 @@
             this.buttonThem.TabIndex = 0;
             this.buttonThem.Text = "Thêm";
             this.buttonThem.UseVisualStyleBackColor = false;
-
+            this.buttonThem.Click += new System.EventHandler(this.buttonThem_Click);
             // 
             // panelRight
             // 
@@ -353,35 +332,34 @@
             this.panelRight.Padding = new System.Windows.Forms.Padding(15);
             this.panelRight.Size = new System.Drawing.Size(780, 580);
             this.panelRight.TabIndex = 3;
-
             // 
             // dataGridViewSinhVien
             // 
             this.dataGridViewSinhVien.AllowUserToAddRows = false;
             this.dataGridViewSinhVien.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.dataGridViewSinhVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.dataGridViewSinhVien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewSinhVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewSinhVien.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewSinhVien.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewSinhVien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewSinhVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewSinhVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewSinhVien.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewSinhVien.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewSinhVien.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewSinhVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewSinhVien.EnableHeadersVisualStyles = false;
             this.dataGridViewSinhVien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -395,7 +373,7 @@
             this.dataGridViewSinhVien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewSinhVien.Size = new System.Drawing.Size(750, 550);
             this.dataGridViewSinhVien.TabIndex = 0;
-
+            this.dataGridViewSinhVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSinhVien_CellClick);
             // 
             // FormSinhVien
             // 
@@ -411,7 +389,6 @@
             this.Name = "FormSinhVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý sinh viên";
-
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
             this.panelSearch.ResumeLayout(false);
@@ -423,6 +400,7 @@
             this.panelRight.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSinhVien)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -56,6 +56,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -78,6 +79,12 @@
     </Compile>
     <Compile Include="FormDiem.Designer.cs">
       <DependentUpon>FormDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDiemTheoLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDiemTheoLop.Designer.cs">
+      <DependentUpon>FormDiemTheoLop.cs</DependentUpon>
     </Compile>
     <Compile Include="FormHinhThucThi.cs">
       <SubType>Form</SubType>
@@ -115,6 +122,12 @@
     <Compile Include="FormNghe.Designer.cs">
       <DependentUpon>FormNghe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,12 +142,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyDiemDataSet.cs">
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="FormDangNhap .resx">
       <DependentUpon>FormDangNhap .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDiem.resx">
       <DependentUpon>FormDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDiemTheoLop.resx">
+      <DependentUpon>FormDiemTheoLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormKhoa.resx">
       <DependentUpon>FormKhoa.cs</DependentUpon>
@@ -147,6 +171,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNghe.resx">
       <DependentUpon>FormNghe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSinhVien.resx">
+      <DependentUpon>FormSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTaiKhoan.resx">
       <DependentUpon>FormTaiKhoan.cs</DependentUpon>
@@ -161,7 +191,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="ReportDiem.rdlc" />
+    <EmbeddedResource Include="ReportSV.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -177,6 +208,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QuanLyDiemDataSet.xsc">
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet.xss">
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\6-bc-quan-ly-thoi-gian.png" />
   </ItemGroup>
   <ItemGroup>

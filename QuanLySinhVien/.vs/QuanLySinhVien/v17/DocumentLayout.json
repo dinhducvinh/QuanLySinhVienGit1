@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhviengit\\quanlysinhvien\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhviengit\\quanlysinhvien\\formdiemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:formdiemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhviengit\\quanlysinhvien\\quanlydiemdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:quanlydiemdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhviengit\\quanlysinhvien\\formdiemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:formdiemtheolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|d:\\hoctap\\c#\\quanlysinhviengit\\quanlysinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E110E6A-B29A-4228-8702-41E749517B28}|QuanLySinhVien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +46,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDiemTheoLop.cs",
+              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\FormDiemTheoLop.cs",
+              "RelativeDocumentMoniker": "FormDiemTheoLop.cs",
+              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\FormDiemTheoLop.cs",
+              "RelativeToolTip": "FormDiemTheoLop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T19:11:27.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyDiemDataSet.xsd",
+              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\QuanLyDiemDataSet.xsd",
+              "RelativeDocumentMoniker": "QuanLyDiemDataSet.xsd",
+              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\QuanLyDiemDataSet.xsd",
+              "RelativeToolTip": "QuanLyDiemDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-12-21T19:07:21.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Report1.rdlc [Design]",
-              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\Report1.rdlc",
-              "RelativeDocumentMoniker": "Report1.rdlc",
-              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\Report1.rdlc [Design]",
-              "RelativeToolTip": "Report1.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-12-21T14:36:28.407Z",
+              "Title": "FormDiemTheoLop.cs [Design]",
+              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\FormDiemTheoLop.cs",
+              "RelativeDocumentMoniker": "FormDiemTheoLop.cs",
+              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\FormDiemTheoLop.cs [Design]",
+              "RelativeToolTip": "FormDiemTheoLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T19:04:26.871Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\hoctap\\C#\\QuanLySinhVienGit\\QuanLySinhVien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T17:38:35.266Z",
+              "EditorCaption": ""
             }
           ]
         }
