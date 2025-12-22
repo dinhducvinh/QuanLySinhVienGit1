@@ -134,6 +134,7 @@
             this.menuSinhVien.Name = "menuSinhVien";
             this.menuSinhVien.Size = new System.Drawing.Size(224, 28);
             this.menuSinhVien.Text = "Sinh viên";
+            this.menuSinhVien.Click += new System.EventHandler(this.menuSinhVien_Click);
             // 
             // toolStripSeparator2
             // 
@@ -188,20 +189,23 @@
             // menuDanhSachSinhVien
             // 
             this.menuDanhSachSinhVien.Name = "menuDanhSachSinhVien";
-            this.menuDanhSachSinhVien.Size = new System.Drawing.Size(246, 28);
-            this.menuDanhSachSinhVien.Text = "Danh sách sinh viên";
+            this.menuDanhSachSinhVien.Size = new System.Drawing.Size(353, 28);
+            this.menuDanhSachSinhVien.Text = "Tỉ lệ sinh viên qua môn,trượt môn";
+            this.menuDanhSachSinhVien.Click += new System.EventHandler(this.menuDanhSachSinhVien_Click);
             // 
             // menuDanhSachDiem
             // 
             this.menuDanhSachDiem.Name = "menuDanhSachDiem";
-            this.menuDanhSachDiem.Size = new System.Drawing.Size(246, 28);
+            this.menuDanhSachDiem.Size = new System.Drawing.Size(353, 28);
             this.menuDanhSachDiem.Text = "Danh sách điểm";
+            this.menuDanhSachDiem.Click += new System.EventHandler(this.menuDanhSachDiem_Click);
             // 
             // menuThongKe
             // 
             this.menuThongKe.Name = "menuThongKe";
-            this.menuThongKe.Size = new System.Drawing.Size(246, 28);
+            this.menuThongKe.Size = new System.Drawing.Size(353, 28);
             this.menuThongKe.Text = "Thống kê sinh viên";
+            this.menuThongKe.Click += new System.EventHandler(this.menuThongKe_Click);
             // 
             // statusStrip1
             // 

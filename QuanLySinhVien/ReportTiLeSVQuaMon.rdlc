@@ -7,32 +7,36 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>2784b8bb-00f2-415c-abc9-68568d54a5ff</rd:DataSourceID>
+      <rd:DataSourceID>d18dfd47-5101-485b-a85a-fa96e5d40661</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="ThongKeSinhVienTheoNganh">
+    <DataSet Name="TiLeQuaMon">
       <Query>
         <DataSourceName>QuanLyDiemDataSet</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="TenNganhHoc">
-          <DataField>TenNganhHoc</DataField>
+        <Field Name="TenMonHoc">
+          <DataField>TenMonHoc</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="SoSinhVien">
-          <DataField>SoSinhVien</DataField>
+        <Field Name="Dau">
+          <DataField>Dau</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Rot">
+          <DataField>Rot</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>QuanLyDiemDataSet</rd:DataSetName>
         <rd:SchemaPath>D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\QuanLyDiemDataSet.xsd</rd:SchemaPath>
-        <rd:TableName>ThongKeSinhVienTheoNganh</rd:TableName>
+        <rd:TableName>TiLeQuaMon</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>ThongKeSinhVienTheoNganhTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterName>TiLeQuaMonTableAdapter</rd:TableAdapterName>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
@@ -46,32 +50,35 @@
                 <ChartMember>
                   <Group Name="Chart1_CategoryGroup">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!TenNganhHoc.Value</GroupExpression>
+                      <GroupExpression>=Fields!TenMonHoc.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <SortExpressions>
                     <SortExpression>
-                      <Value>=Fields!TenNganhHoc.Value</Value>
+                      <Value>=Fields!TenMonHoc.Value</Value>
                     </SortExpression>
                   </SortExpressions>
-                  <Label>=Fields!TenNganhHoc.Value</Label>
+                  <Label>=Fields!TenMonHoc.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>So Sinh Vien</Label>
+                  <Label>Dau</Label>
+                </ChartMember>
+                <ChartMember>
+                  <Label>Rot</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
             <ChartData>
               <ChartSeriesCollection>
-                <ChartSeries Name="SoSinhVien">
+                <ChartSeries Name="Dau">
                   <ChartDataPoints>
                     <ChartDataPoint>
                       <ChartDataPointValues>
-                        <Y>=Sum(Fields!SoSinhVien.Value)</Y>
+                        <Y>=Sum(Fields!Dau.Value)</Y>
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
@@ -86,6 +93,44 @@
                     </ChartDataPoint>
                   </ChartDataPoints>
                   <Type>Shape</Type>
+                  <Subtype>ExplodedPie</Subtype>
+                  <Style />
+                  <ChartEmptyPoints>
+                    <Style />
+                    <ChartMarker>
+                      <Style />
+                    </ChartMarker>
+                    <ChartDataLabel>
+                      <Style />
+                    </ChartDataLabel>
+                  </ChartEmptyPoints>
+                  <ValueAxisName>Primary</ValueAxisName>
+                  <CategoryAxisName>Primary</CategoryAxisName>
+                  <ChartSmartLabel>
+                    <CalloutLineColor>Black</CalloutLineColor>
+                    <MinMovingDistance>0pt</MinMovingDistance>
+                  </ChartSmartLabel>
+                </ChartSeries>
+                <ChartSeries Name="Rot">
+                  <ChartDataPoints>
+                    <ChartDataPoint>
+                      <ChartDataPointValues>
+                        <Y>=Sum(Fields!Rot.Value)</Y>
+                      </ChartDataPointValues>
+                      <ChartDataLabel>
+                        <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
+                      </ChartDataLabel>
+                      <Style />
+                      <ChartMarker>
+                        <Style />
+                      </ChartMarker>
+                      <DataElementOutput>Output</DataElementOutput>
+                    </ChartDataPoint>
+                  </ChartDataPoints>
+                  <Type>Shape</Type>
+                  <Subtype>ExplodedPie</Subtype>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -331,6 +376,9 @@
                     </ChartAxisScaleBreak>
                   </ChartAxis>
                 </ChartValueAxes>
+                <ChartThreeDProperties>
+                  <Enabled>true</Enabled>
+                </ChartThreeDProperties>
                 <Style>
                   <BackgroundColor>#00ffffff</BackgroundColor>
                   <BackgroundGradientType>None</BackgroundGradientType>
@@ -357,7 +405,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>Thống kê tỉ lệ sinh viên theo ngành</Caption>
+                <Caption>Thống kê tỉ lệ đậu rớt của sinh viên qua tên môn học</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>
@@ -386,7 +434,8 @@
                 <VerticalAlign>Top</VerticalAlign>
               </Style>
             </ChartNoDataMessage>
-            <DataSetName>ThongKeSinhVienTheoNganh</DataSetName>
+            <DataSetName>TiLeQuaMon</DataSetName>
+            <Left>0.19167in</Left>
             <Height>2.93333in</Height>
             <Width>4.05in</Width>
             <Style>
@@ -399,10 +448,10 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>3in</Height>
+        <Height>3.475in</Height>
         <Style />
       </Body>
-      <Width>4.11666in</Width>
+      <Width>4.40833in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
@@ -419,5 +468,5 @@
     </GridLayoutDefinition>
   </ReportParametersLayout>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>2310f7bb-196c-40fd-a714-771094b099e6</rd:ReportID>
+  <rd:ReportID>16b4b9a0-bcab-42db-b2b9-662328569cdd</rd:ReportID>
 </Report>

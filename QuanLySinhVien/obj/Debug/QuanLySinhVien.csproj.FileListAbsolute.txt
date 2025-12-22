@@ -92,3 +92,4 @@ D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\obj\Debug\QuanLySi.3CF0D20D.Up2Dat
 D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormSinhVien.resources
 D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormReport.resources
 D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormDiemTheoLop.resources
+D:\hoctap\C#\QuanLySinhVienGit\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormReportTiLeSV.resources
